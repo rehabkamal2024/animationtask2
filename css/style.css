@@ -1,0 +1,336 @@
+
+*  {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.home{
+    height:1000vh;
+    position: relative;
+    background-image: url(../images/back7.jpg);
+    height: 3500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+.div1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/zohal1.png);
+    position: absolute;
+    left: 0;
+   
+
+    animation-name: change;
+    animation-duration: 4s;
+
+     animation-delay: 2s ;
+
+    animation-iteration-count: 1 ;
+
+    /* animation-direction: alternate-reverse ; */
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change {
+    0% {
+    }
+    50% {
+        
+    }
+    100% {
+        left: 3500px;
+        top: 30;
+    }
+}
+
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/moshtary2.png);
+    margin-top: 250px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+   
+
+    animation-name: change2;
+    animation-duration: 4s;
+
+     animation-delay: 6s ;
+
+    animation-iteration-count: 1 ;
+
+     animation-direction: alternate ;
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change2 {
+    0% {
+    }
+
+    50% {
+        
+    }
+
+    100% {
+        right: 3500px;
+    }
+}
+
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/el2ard3.jpg);
+    margin-top: 500px;
+    position: absolute;
+    left: 0;
+   
+
+    animation-name: change3;
+    animation-duration: 4s;
+
+     animation-delay: 10s ;
+
+    animation-iteration-count: 1 ;
+
+    /* animation-direction: alternate-reverse ; */
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change3 {
+    0% {
+    }
+
+    50% {
+    }
+    100% {
+        left: 3500px;
+    }
+}
+.div4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/ploto4.jpg);
+    margin-top: 750px;
+    position: absolute;
+    right: 0;
+   
+
+    animation-name: change4;
+    animation-duration: 4s;
+
+     animation-delay: 14s ;
+
+    animation-iteration-count: 1 ;
+
+     animation-direction: alternate ;
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change4 {
+    0% {
+    }
+
+    50% {
+    }
+
+    100% {
+        right: 3500px;
+    }
+}
+.div5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/elzohra5.png);
+    margin-top: 1000px;
+    position: absolute;
+    left: 0;
+   
+
+    animation-name: change5;
+    animation-duration: 4s;
+
+     animation-delay: 18s ;
+
+    animation-iteration-count: 1 ;
+
+    /* animation-direction: alternate-reverse ; */
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change5 {
+    0% {
+    }
+    50% {        
+    }
+
+    100% {
+        left: 3500px;
+    }
+}
+.div6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/3tared6.png);
+    margin-top: 1250px;
+    position: absolute;
+    right: 0;
+   
+
+    animation-name: change6;
+    animation-duration: 4s;
+
+     animation-delay: 22s ;
+
+    animation-iteration-count: 1 ;
+
+     animation-direction: alternate ;
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change6 {
+    0% {
+    }
+
+    50% {        
+    }
+
+    100% {
+        right: 3500px;
+    }
+}
+.div7 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/elmareth7.png);
+    margin-top: 1500px;
+    position: absolute;
+    left: 0;
+    animation-name: change7;
+    animation-duration: 4s;
+
+     animation-delay: 26s ;
+
+    animation-iteration-count: 1 ;
+
+    /* animation-direction: alternate-reverse ; */
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change7 {
+    0% {
+    }
+
+    50% {        
+    }
+
+    100% {
+        left: 3500px;
+    }
+}
+.div8 {
+     width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/aronos8.png);
+    margin-top: 1750px;
+    position: absolute;
+    right: 0;
+   
+
+    animation-name: change8;
+    animation-duration: 4s;
+
+     animation-delay: 30s ;
+
+    animation-iteration-count: 1 ;
+
+     animation-direction: alternate ;
+
+    animation-fill-mode: forwards ;
+
+    animation-timing-function: linear ;
+    
+
+    /* animation: name - duration - timing-function  - delay -  iteration-count  - direction -
+     fill-mode -  play-state ; */
+
+}
+
+@keyframes change8 {
+    0% {
+    }
+
+    50% {        
+    }
+
+    100% {
+        right: 3500px;
+    }
+}
